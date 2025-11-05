@@ -43,10 +43,16 @@
         }
       ],
       "expo-font",
-      "expo-video"
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "89772b33-6904-4630-a175-ff9be624e950"
+      }
     }
   }
 }

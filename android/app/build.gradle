@@ -85,13 +85,13 @@ android {
     ndkVersion rootProject.ext.ndkVersion
 
     buildToolsVersion rootProject.ext.buildToolsVersion
-    compileSdk rootProject.ext.compileSdkVersion
+    compileSdk rootProject.ext.    compileSdkVersion 36
 
     namespace 'com.anonymous.SparkApp'
     defaultConfig {
-        applicationId 'com.anonymous.SparkApp'
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+            applicationId "com.anonymous.sparkapp"
+                minSdkVersion 24
+                targetSdkVersion 36
         versionCode 1
         versionName "1.0.0"
 
